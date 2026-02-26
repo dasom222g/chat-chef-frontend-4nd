@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PrevButton from "../components/PrevButton";
 import InfoInput from "../components/InfoInput";
 import AddButton from "../components/AddButton";
@@ -58,9 +58,9 @@ const Info = ({ sendIngredientList }) => {
   // }, []);
 
   // 3. 특정 state가 변경이 일어났을때 실행
-  useEffect(() => {
-    console.log("ingredientList", ingredientList);
-  }, [ingredientList]);
+  // useEffect(() => {
+  //   console.log("ingredientList", ingredientList);
+  // }, [ingredientList]);
 
   // view
   return (
