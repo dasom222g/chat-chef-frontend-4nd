@@ -61,6 +61,9 @@ const Chat = ({ ingredientList }) => {
 
     // 3. 메시지 api 요청
     sendMessage(userMessage);
+
+    // 5. 사용자 input 초기화
+    setValue("");
   };
 
   const sendInfo = async () => {
